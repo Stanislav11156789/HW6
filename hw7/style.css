@@ -1,0 +1,38 @@
+.first-block-1 {
+  float: left;
+}
+.first-block-2 {
+  float: right;
+}
+.second {
+  display: flex;
+  flex-direction: row;
+}
+.second-block-1 {
+  float: left;
+  flex-direction: row;
+  margin-right: auto;
+}
+
+.flex-container {
+  margin-left: 20px;
+  margin-bottom: 100px;
+  float: right;
+}
+.third {
+  display: flex;
+  flex-direction: row;
+}
+.flex-box-1 {
+  display: inline-block;
+}
+.flex-box {
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: auto;
+}
+.flex-box-3,
+.flex-box-4 {
+  float: right;
+  margin-left: 20px;
+}
