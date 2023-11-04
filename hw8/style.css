@@ -1,20 +1,19 @@
-.header {
-  max-width: 2000px;
+.container {
+  max-width: 5000px;
   margin: 0 auto;
 }
-.first-box {
-  width: 2000px;
-  background-color: rgb(191, 186, 186);
+.header {
+  background-color: #eeeff1;
   height: 350px;
   text-align: 250px;
 }
-.box {
+.first-box {
   margin-left: 365px;
 }
 .nav-item {
   margin-left: 20px;
   display: inline-block;
-  color: white;
+  color: black;
   margin-top: 30px;
 }
 .it {
@@ -32,11 +31,11 @@
   margin-top: 45px;
   width: 150px;
   height: 40px;
-  background-color: blue;
+  background-color: #34547a;
   color: white;
 }
 .second-block {
-  background-color: antiquewhite;
+  background-color: silver #eeeff1;
   padding-top: 35px;
   text-align: center;
 }
@@ -49,7 +48,7 @@
 }
 .third-block {
   height: 180px;
-  background-color: blue;
+  background-color: #34547a;
 }
 .list {
   text-align: center;
@@ -64,7 +63,7 @@
 }
 .fourth-block {
   height: 400px;
-  background-color: rgb(140, 15, 15);
+  background-color: silver #eeeff1;
 }
 .text-title {
   text-align: center;
@@ -87,7 +86,7 @@
 }
 .foot {
   height: 180px;
-  background-color: blue;
+  background-color: #34547a;
 }
 .last-title,
 .last-text {
