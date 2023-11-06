@@ -1,0 +1,102 @@
+.container {
+  max-width: 2000px;
+  margin: 0 auto;
+}
+.header {
+  background-color: #eeeff1;
+  height: 350px;
+  text-align: left;
+}
+.first-box {
+  margin-left: 365px;
+}
+.nav-item {
+  margin-left: 20px;
+  display: inline-block;
+  color: black;
+  margin-top: 30px;
+}
+.it {
+  margin-left: 0;
+}
+@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&display=swap");
+.first-title {
+  margin-top: 70px;
+  margin-bottom: 35px;
+  box-sizing: 15px;
+  font-family: "Alumni Sans Collegiate One", sans-serif;
+  font-size: 25px;
+}
+.click {
+  margin-top: 45px;
+  width: 150px;
+  height: 40px;
+  background-color: #34547a;
+  color: white;
+}
+.second-block {
+  background-color: silver #eeeff1;
+  padding-top: 35px;
+  text-align: center;
+}
+.second-title {
+  font-size: 25px;
+}
+.third-title {
+  margin-left: auto;
+  margin-right: auto;
+  width: 30em;
+  margin-top: 30px;
+  padding-bottom: 20px;
+}
+.third-block {
+  height: 180px;
+  background-color: #34547a;
+}
+.list {
+  text-align: center;
+  size: 5px;
+}
+.list-item {
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 20px;
+  display: inline-block;
+}
+.fourth-block {
+  height: 400px;
+  background-color: silver #eeeff1;
+}
+.text-title {
+  text-align: center;
+  padding-top: 20px;
+}
+.fourth-title {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+.fifth-title {
+  margin-left: auto;
+  margin-right: auto;
+  width: 30em;
+  margin-top: 10px;
+}
+.video {
+  margin-left: 40%;
+  margin-right: 60%;
+  width: 400px;
+  height: 300px;
+}
+.foot {
+  height: 180px;
+  background-color: #34547a;
+}
+.last-title,
+.last-text {
+  margin-left: 340px;
+  margin-bottom: 20px;
+  padding-top: 40px;
+  color: white;
+  font-size: 20px;
+}
