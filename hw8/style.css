@@ -11,12 +11,63 @@
   margin-left: 365px;
 }
 .nav-item {
-  margin-left: 20px;
+  margin-left: 65px;
   display: inline-block;
   color: black;
   margin-top: 30px;
 }
+.first-it::after {
+  margin-left: 10px;
+  content: "";
+  display: inline-block;
+  height: 63px;
+  width: 58px;
+  border: 2px solid white;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgtXirReacZ8bA28P5HCaeEgTrYJEAN6i9wA&usqp=CAU");
+  position: absolute;
+}
+.second-it::after {
+  margin-left: 10px;
+  content: "";
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  border: 2px solid white;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKdzq6qMQ5UgJUIXodshmePT9n8rhkjae06g&usqp=CAU");
+  position: absolute;
+}
+.third-it::after {
+  margin-left: 10px;
+  content: "";
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  border: 2px solid white;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqZdXzSdDxnLVYoOcFu-yurdpa3C48n1bDrybm9hjdlWiSv6U36PSEYavsjKw2SLH-w6M&usqp=CAU");
+  position: absolute;
+}
+.fourth-it::after {
+  margin-left: 10px;
+  content: "";
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+  border: 2px solid white;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLRMhadhHBFp37rG9iZuorWInzLwhbtkdJleMxnrlrJ7mt_UcBpNXKIeOHKdkElU82TTs&usqp=CAU");
+  position: absolute;
+}
+.fifth-it::after {
+  margin-left: 10px;
+  content: "";
+  display: inline-block;
+  height: 65px;
+  width: 65px;
+  border: 2px solid white;
+  background-image: url("https://images.ctfassets.net/o8rbhyyom3pw/7kXWQ0ZTgblmeOvHDPnVpR/f691d5381fac14244ad9034413a81f52/CSS_Image_Sprites.webp");
+  position: absolute;
+}
 .it {
+  color: #34547a;
   margin-left: 0;
 }
 @import url("https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&display=swap");
@@ -57,6 +108,17 @@
   text-align: center;
   size: 5px;
 }
+.item {
+  display: inline-block;
+  color: white;
+  margin-left: 5px;
+  padding-top: 5px;
+}
+.item-first {
+  margin-left: -20px;
+  margin-bottom: 15px;
+}
+
 .list-item {
   text-align: center;
   margin-top: 50px;
