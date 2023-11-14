@@ -108,8 +108,6 @@
   font-size: 20px;
 }
 .list-one {
-  width: 513px;
-  height: 70px;
   font-size: 56px;
 }
 .flex-cont {
@@ -125,11 +123,22 @@
   font-size: 20px;
 }
 .list-a {
-  width: 280px;
-  height: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   font-size: 30px;
-  border-bottom: 1px solid black;
-  margin-left: 180px;
+  text-decoration: underline;
+  position: relative;
+}
+.list-a::after {
+  content: "";
+  background-image: url("./img/free-icon-font-arrow-right-3916800.png");
+  width: 50px;
+  height: 50px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  position: relative;
+  margin-left: 10px;
 }
 .image {
   width: 603px;
