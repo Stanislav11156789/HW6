@@ -1,0 +1,202 @@
+.header {
+  background-color: #f9f6f5;
+}
+.bgconteiner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.nav-first__navigation-first-block {
+  padding-top: 40px;
+  padding-right: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.navigation-first-block__item_a {
+  padding-right: 200px;
+}
+.navigation-first-block__item_b {
+  padding-left: 200px;
+}
+
+.wrap-first-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.tittle-first-block {
+  display: flex;
+  flex-direction: column;
+}
+.tittle-first-block__link_first-text {
+  width: 621px;
+  font-size: 56px;
+  margin-top: 100px;
+}
+.tittle-first-block__link_second-text {
+  width: 516px;
+  margin-top: 40px;
+  font-size: 20px;
+}
+
+.navigation-first-block__item_a {
+  text-decoration: underline;
+  font-style: oblique;
+  font-size: 25px;
+}
+
+.item-second {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.butt {
+  width: 326px;
+  height: 48px;
+  margin-top: 65px;
+  background-image: url("./img/search.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.button {
+  width: 148px;
+  height: 56px;
+  margin-top: 75px;
+  background-color: #402f2c;
+  color: white;
+}
+.navigation-second-block {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.navigation-second-block__nav-second-block {
+  font-size: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 70px;
+}
+
+.navi-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+
+.navi-item-b {
+  margin-top: -20px;
+}
+.conteiner-three {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.wrap-three {
+  padding-top: 100px;
+}
+.text-three {
+  font-size: 56px;
+}
+.parag {
+  margin-top: 30px;
+  font-size: 20px;
+}
+.list-one {
+  font-size: 56px;
+}
+
+.flex-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+.flex-cont__list_a {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 30px;
+  text-decoration: underline;
+}
+.flex-cont__list_vector {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 50px;
+  align-self: center;
+  height: 20px;
+}
+.image {
+  width: 600px;
+  margin-top: 100px;
+  border: 1px solid #685a52;
+}
+.image-one {
+  height: 484px;
+  background-image: url("./img/pump-bottle-02\ 1.png");
+}
+.fourth-block {
+  font-size: 40px;
+  color: #222222;
+  margin-left: 50px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.fourth-block__tittle-fourth {
+  font-size: 20px;
+  margin-left: 50px;
+}
+.button-first {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 100px;
+  margin-left: 50px;
+}
+.button-first__but-one{
+  width: 130px;
+  height: 50px;
+  background-color: #685a52;
+  color: white;
+  font-size: 20px;
+}
+.button-first__but-two {
+  width: 130px;
+  height: 50px;
+  font-size: 20px;
+  background-color: #685a52;
+  color: white;
+}
+.prices {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 65px;
+  padding-left: 120px;
+  font-size: 40px;
+}
+.wrapping {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 1220px;
+  margin: 0 auto;
+}
+.image-two {
+  width: 600px;
+  height: 812px;
+  border: 1px solid #685a52;
+  margin-top: 100px;
+}
+.image-second {
+  height: 484px;
+  background-image: url("./img/Group\ 5107.png");
+}
+.conteiner-fourth {
+  max-width: 1200px;
+  margin: 0 auto;
+}
