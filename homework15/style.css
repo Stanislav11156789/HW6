@@ -1,0 +1,95 @@
+
+.grid-conteiner {
+  display: grid;
+  grid-template-columns: repeat(4, 200px);
+  grid-template-rows: repeat(3, 300px);
+  column-gap: 10px;
+  row-gap: 10px;
+  justify-content: center;
+}
+@media screen and (max-width: 768px) {
+  .grid-conteiner {
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: auto; 
+}
+}
+  @media screen and (max-width: 480px) {
+    .grid-conteiner {
+      grid-template-columns: 1fr; 
+    }
+  }
+.item {
+  background-color: rgba(243, 248, 248, 0.828);
+}
+.tittle-first {
+  display: grid;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background-image: url("https://placehold.co/410x300");
+  background-repeat: no-repeat;
+  align-items: end;
+  text-align: center;
+  padding: 5px;
+  padding-bottom: 65px;
+}
+
+.tittle-second {
+  display: grid;
+  align-items: end;
+  background-image: url("https://placehold.co/200x200");
+  background-repeat: no-repeat;
+  padding-left: 10px;
+  padding-bottom: 30px;
+}
+.second-text {
+  color: black;
+}
+.tittle-third {
+  display: grid;
+  align-items: end;
+  background-image: url("https://placehold.co/200x200");
+  background-repeat: no-repeat;
+  padding-left: 10px;
+  padding-bottom: 30px;
+}
+.third-text {
+  color: black;
+}
+.tittle-fourth {
+  display: grid;
+  align-items: end;
+  background-image: url("https://placehold.co/200x200");
+  background-repeat: no-repeat;
+  padding-left: 10px;
+  padding-bottom: 30px;
+}
+.fourth-text {
+  color: black;
+}
+.tittle-fifth {
+  display: grid;
+  align-items: end;
+  background-image: url("https://placehold.co/200x200");
+  background-repeat: no-repeat;
+  padding-left: 10px;
+  padding-bottom: 30px;
+}
+.fifth-text {
+  color: black;
+}
+.tittle-sixth {
+  display: grid;
+  align-items: end;
+  background-image: url("https://placehold.co/410x300");
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 3;
+  grid-column-end: 5;
+  padding-left: 10px;
+  padding-bottom: 30px;
+}
+.sixth-text {
+  color: black;
+}
