@@ -1,0 +1,173 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(5, 60px);
+  grid-template-rows: repeat(5, 40px);
+}
+.photo {
+  width: 300px;
+  height: 200px;
+}
+.grid-item1 {
+  display: grid;
+  background-color: white;
+  opacity: 0;
+  animation: any-name 1s infinite;
+}
+.grid-item2 {
+  display: grid;
+  background-color: white;
+  opacity: 0;
+  animation: any-name 1.1s infinite;
+}
+.grid-item3 {
+  display: grid;
+  background-color: white;
+  opacity: 0;
+  animation: any-name 1.2s infinite;
+}
+.grid-item4 {
+  display: grid;
+  background-color: white;
+  opacity: 0;
+  animation: any-name 1.3s infinite;
+}
+.grid-item5 {
+  display: grid;
+  background-color: white;
+  opacity: 0;
+  animation: any-name 1.4s infinite;
+}
+.grid-item6 {
+  display: grid;
+  background-color: white;
+  opacity: 0;
+  animation: any-name 1.5s infinite;
+}
+.grid-item7 {
+  display: grid;
+  background-color: white;
+  opacity: 0;
+  animation: any-name 1.6s infinite;
+}
+.grid-item8 {
+  display: grid;
+  background-color: white;
+  opacity: 0;
+  animation: any-name 1.7s infinite;
+}
+.grid-item9 {
+  display: grid;
+  background-color: white;
+  opacity: 0;
+  animation: any-name 1.8s infinite;
+}
+.grid-item10 {
+  display: grid;
+  background-color: white;
+  opacity: 0;
+  animation: any-name 1.9s infinite;
+}
+.grid-item11 {
+  display: grid;
+  background-color: white;
+  opacity: 0;
+  animation: any-name 2s infinite;
+}
+.grid-item12 {
+  display: grid;
+  background-color: white;
+  opacity: 0;
+  animation: any-name 2.1s infinite;
+}
+.grid-item13 {
+  display: grid;
+  background-color: white;
+  opacity: 0;
+  animation: any-name 2.2s infinite;
+}
+.grid-item14 {
+  display: grid;
+  background-color: white;
+  opacity: 0;
+  animation: any-name 2.3s infinite;
+}
+.grid-item15 {
+  display: grid;
+  background-color: white;
+  opacity: 0;
+  animation: any-name 2.4s infinite;
+}
+.grid-item16 {
+  display: grid;
+  background-color: white;
+  opacity: 0;
+  animation: any-name 2.5s infinite;
+}
+.grid-item17 {
+  display: grid;
+  background-color: white;
+  opacity: 0;
+  animation: any-name 2.6s infinite;
+}
+.grid-item18 {
+  display: grid;
+  background-color: white;
+  opacity: 0;
+  animation: any-name 2.7s infinite;
+}
+.grid-item19 {
+  display: grid;
+  background-color: white;
+  opacity: 0;
+  animation: any-name 2.8s infinite;
+}
+.grid-item20 {
+  display: grid;
+  background-color: white;
+  opacity: 0;
+  animation: any-name 2.9s infinite;
+}
+.grid-item21 {
+  display: grid;
+  background-color: white;
+  opacity: 0;
+  animation: any-name 3s infinite;
+}
+.grid-item22 {
+  display: grid;
+  background-color: white;
+  opacity: 0;
+  animation: any-name 3.1s infinite;
+}
+.grid-item23 {
+  display: grid;
+  background-color: white;
+  opacity: 0;
+  animation: any-name 3.2s infinite;
+}
+.grid-item24 {
+  display: grid;
+  background-color: white;
+  opacity: 0;
+  animation: any-name 3.3s infinite;
+}
+.grid-item25 {
+  display: grid;
+  background-color: white;
+  opacity: 0;
+  animation: any-name 3.4s infinite;
+}
+@keyframes any-name {
+  100% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
